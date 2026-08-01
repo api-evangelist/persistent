@@ -1,8 +1,30 @@
 aid: persistent
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/persistent.png
 name: Persistent
-description: 'Persistent is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Persistent Systems Limited is a global digital engineering and enterprise
+  modernization company with 35+ years of experience, ~27,500 employees across
+  21 countries, and roughly $1.65B in annual revenue. It provides consulting,
+  software product engineering, cloud and infrastructure, data and analytics,
+  and applied-AI services to enterprises across banking and financial services,
+  insurance, healthcare and life sciences, industrial, software and hi-tech, and
+  telecom and media. Publicly listed in India, Persistent operates an AI Hub
+  (GenAI Hub, iAURA, SASVA) and a products marketplace, but does not publish a
+  public developer portal, OpenAPI/Swagger specifications, SDKs, or API
+  reference documentation as of this enrichment pass; this profile therefore
+  captures company identity and probed domain-security posture rather than an
+  API surface.
 url: https://raw.githubusercontent.com/api-evangelist/persistent/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Digital Engineering
+- Enterprise Modernization
+- IT Services
+- Consulting
+- Cloud
+- Artificial Intelligence
+- Software Product Engineering
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +52,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://persistent.com
+  url: https://www.persistent.com
+- type: Services
+  url: https://www.persistent.com/services/
+- type: Marketplace
+  url: https://marketplace.persistentproducts.com
+- type: Careers
+  url: https://careers.persistent.com
+- type: DomainSecurity
+  url: security/persistent-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
